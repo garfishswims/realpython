@@ -6,6 +6,9 @@ from flask import Flask
 # create the application object
 app = Flask(__name__)
 
+# error handling
+app.config['DEBUG'] = True
+
 # use decorators to link the function to a url
 @app.route('/')
 @app.route('/hello')
