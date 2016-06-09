@@ -1,3 +1,10 @@
-.pyc
+# Compiled
+*.pyc
+
+
+# Databases
+*.db
+*.sqlite3
+
+# OS
 .DS_Store
-.db
